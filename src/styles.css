@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+h1 {
+    color: black;
+    font-family: poppins;
+    font-size: 250%;
+    font-weight: bolder;
+}
+
+h2, h3 {
+    color: #333;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+body  {
+    margin: 2em;
+}
+
+
+body, input[type ="text"], button {
+    color: #444;
+    font-family: Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

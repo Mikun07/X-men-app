@@ -1,0 +1,41 @@
+/* .headbar {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.dash-meun {
+    position: absolute;
+    width: 913px;
+    height: 69px;
+    left: 396px;
+    top: 245px;
+    background: #060606;
+    border-radius: 20px;
+} */
+
+/* AppComponent's private CSS styles */
+h1 {
+    margin-bottom: 0;
+  }
+  
+  nav a {
+    padding: 1rem;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #e8e8e8;
+    color: #3d3d3d;
+    border-radius: 4px;
+  }
+  
+  nav a:hover {
+    color: white;
+    background-color: #42545C;
+  }
+  nav a.active {
+    background-color: black;
+  }

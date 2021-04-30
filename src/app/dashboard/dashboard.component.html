@@ -1,0 +1,21 @@
+<app-hero-search></app-hero-search>
+<app-villan-search></app-villan-search>
+
+
+<h2>Top Heroes</h2>
+<div class="heroes-menu">
+  <a *ngFor="let hero of heroes"
+      routerLink="/detail/{{hero.id}}">
+      {{hero.name}}
+  </a>
+</div>
+
+<h2>Top Villans</h2>
+<div class="heroes-menu">
+  <a *ngFor="let villan of villans"
+      routerLink="/detail/{{villan.id}}">
+      {{villan.name}}
+  </a>
+</div>
+
+
